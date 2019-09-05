@@ -10,7 +10,7 @@ To begin with, the paper is based on a kaggle competition [2nd Youtube8M Video U
 
 The paper above proposes a method to reduce the computation time for video classification using the idea of distillation. Specifically, they first train a teacher network which computes a representation of the video using all the frames in the video. They then train a student network which only processes k frames of the video. Generally, performance of the student network is much poorer than that of teacher network. However, performance of student can be improved under the help of teacher. 
 
-![](teaher-student network.png)
+![](teacher_student_network.png)
 
 They use different combinations of loss functions which ensures that
 
